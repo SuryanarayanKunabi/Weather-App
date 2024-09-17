@@ -4,8 +4,9 @@
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html {
-	background-color: #f7f7f7;
+body{
+	background-image: url("weather-image.png");
+	
 }
 
 .app-name {
