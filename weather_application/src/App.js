@@ -5,7 +5,7 @@ import { faFrown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.css';
  
-function GfGWeatherApp() {
+function WeatherApp() {
     const [input, setInput] = useState('');
     const [weather, setWeather] = useState({
         loading: false,
@@ -132,4 +132,4 @@ function GfGWeatherApp() {
     );
 }
  
-export default GfGWeatherApp;
+export default WeatherApp;
